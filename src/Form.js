@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ProgressBar from './ProgressBar/ProgressBar';
+
 import Step1 from './Steps/Step1';
 import Step2 from './Steps/Step2';
 import Step3 from './Steps/Step3';
@@ -52,7 +52,7 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
+    
   };
 
   return (
